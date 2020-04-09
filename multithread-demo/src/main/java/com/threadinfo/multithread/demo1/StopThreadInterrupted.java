@@ -1,10 +1,7 @@
 package com.threadinfo.multithread.demo1;
 
-/**
- * 不要用stop来停止一个线程
- */
-public class StopThreadUnsafe {
-    public static  User u =new User();
+public class StopThreadInterrupted {
+    public static User u =new User();
     public static class User{
         private int id;
         private String name;
@@ -37,22 +34,32 @@ public class StopThreadUnsafe {
 
 
     public static class ChangeObjectThread extends Thread{
+        volatile boolean stopme =false;
+
         @Override
         public void run() {
             while (true){
-                //赋值
-                synchronized (u){
-                    int v = (int) System.currentTimeMillis()/1000;
-                    u.setId(v);
-                    try {
-                        Thread.sleep(100);
-                    }catch (Exception e){
-                        e.printStackTrace();
+                //判断中断
+                if(currentThread().isInterrupted()){
+                    System.out.println("exit stop");
+                    break;
+                }else{
+                    //赋值
+                    synchronized (u){
+                        int v = (int) System.currentTimeMillis()/1000;
+                        u.setId(v);
+                        try {
+                            Thread.sleep(2000);
+                        }catch (Exception e){
+                            System.out.println("Interruted when Sleep");
+                            Thread.currentThread().interrupt();
+                        }
+                        u.setName(String.valueOf(v));
+                        super.run();
                     }
-                    u.setName(String.valueOf(v));
-                    super.run();
+                    Thread.yield();
                 }
-                Thread.yield();
+
             }
         }
     }
@@ -74,12 +81,12 @@ public class StopThreadUnsafe {
     }
 
     public static void main(String[] args) throws InterruptedException {
-        new readObjectThred().start();
+        new StopThreadUnsafe.readObjectThred().start();
         while (true){
             Thread t = new ChangeObjectThread();
             t.start();
             Thread.sleep(150);
-            t.stop();
+            t.interrupt();
         }
     }
 }
