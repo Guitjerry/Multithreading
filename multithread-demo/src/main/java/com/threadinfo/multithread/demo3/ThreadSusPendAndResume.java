@@ -2,6 +2,9 @@ package com.threadinfo.multithread.demo3;
 
 import lombok.SneakyThrows;
 
+/**
+ * 如果resume操作意外的发生在suspend前，那么挂起的线程就永远不会再执行了
+ */
 public class ThreadSusPendAndResume {
     public static Object u = new Object();
     static ChangeObjectThread t1 = new ChangeObjectThread("thread1");
