@@ -9,3 +9,21 @@
 * 提高响应速度。 当任务到达时， 任务可以不需要等到线程创建就可以立即行。
 * 提高线程的可管理性。 使用线程池可以对线程进行统一的分配和监控。
 * 如果不使用线程池， 有可能造成系统创建大量线程而导致消耗完系统内存。
+## 内部方法
+>newFixedThreadPool
+
+创建一个核心线程个数和最大线程个数都为nThreads的线程池，并且阻塞队列长度为Integer.MAX_VALUE，keeyAliveTime=0说明只要线程个数比核心线程个数多并且当前空闲则回收。
+>newSingleThreadExecutor
+
+创建一个核心线程个数和最大线程个数都为1的线程池，并且阻塞队列长度为Integer.MAX_VALUE，keeyAliveTime=0说明只要线程个数比核心线程个数多并且当前空闲则回收。
+
+>newCachedThreadPool
+
+创建一个按需创建线程的线程池，初始线程个数为0，最多线程个数为Integer.MAX_VALUE，并且阻塞队列为同步队列，keeyAliveTime=60说明只要当前线程60s内空闲则回收。这个特殊在于加入到同步队列的任务会被马上被执行，同步队列里面最多只有一个任务，并且存在后马上会拿出执行。
+
+>newSingleThreadScheduledExecutor
+
+创建一个最小线程个数corePoolSize为1，最大为Integer.MAX_VALUE，阻塞队列为DelayedWorkQueue的线程池。
+
+>其中Worker继承AQS和Runnable是具体承载任务的对象，Worker继承了AQS自己实现了简单的不可重入独占锁，其中status=0标示锁未被获取状态也就是未被锁住的状态，state=1标示锁已经被获取的状态也就是锁住的状态。
+ DefaultThreadFactory是线程工厂，newThread方法是对线程的一个分组包裹，其中poolNumber是个静态的原子变量，用来统计线程工厂的个数，threadNumber用来记录每个线程工厂创建了多少线程。
