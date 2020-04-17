@@ -2,10 +2,7 @@ package com.threadinfo.multithread.demo8;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.concurrent.ExecutionException;
-import java.util.concurrent.ForkJoinPool;
-import java.util.concurrent.ForkJoinTask;
-import java.util.concurrent.RecursiveTask;
+import java.util.concurrent.*;
 
 /**
  * 分而治之，先把一个大任务分解(fork)成许多个独立的小任务，
