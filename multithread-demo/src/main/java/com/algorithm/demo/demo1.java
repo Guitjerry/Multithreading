@@ -14,7 +14,26 @@ package com.algorithm.demo;
  * 我们设状态f(x) = 最少用多少枚硬币拼出X
  */
 public class demo1 {
-    public static void main(String[] args) {
+    //A{2,5,7} m 27
+    public static int coinChange(int[] A, int M) {
+        int[] f = new int[M + 1];
+        f[0] = 0;
+        int i, j;
+        for (i = 1; i <= M; i++) {
+            f[i] = Integer.MAX_VALUE;
+            for (j = 0; j < A.length; ++j) {
+                if (i >= A[j] && f[i - A[j]] != Integer.MAX_VALUE) {
+                    f[i] = Math.min(f[i - A[j]] + 1, f[i]);
+                }
+            }
+        }
+        if (f[M] == Integer.MAX_VALUE) {
+            f[M] = -1;
+        }
+        return f[M];
+    }
 
+    public static void main(String[] args) {
+        System.out.println(coinChange(new int[]{2, 5, 7}, 27));
     }
 }
