@@ -24,6 +24,14 @@ public class ArrayQueueDemo {
                     int value =  scanner.nextInt();
                     arrayQueue.addQueue(value);
                     break;
+                case 'g':
+                   int queue =  arrayQueue.getQueue();
+                    System.out.println("获得:"+queue);
+                    break;
+                case 'h':
+                   int head =  arrayQueue.headQueue();
+                    System.out.println("获得:"+head);
+                    break;
             }
 
         }
