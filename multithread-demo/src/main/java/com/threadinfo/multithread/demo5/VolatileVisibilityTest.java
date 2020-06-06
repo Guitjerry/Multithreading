@@ -26,11 +26,19 @@ public class VolatileVisibilityTest {
     public static void main(String[] args) {
         ReadThread readThread = new ReadThread();
         readThread.start();
-        Thread.sleep(1000);
+        try {
+            Thread.sleep(1000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
         number=42;
 
         ready=true;
 //        readyVolatile=true;
-        Thread.sleep(3000);
+        try {
+            Thread.sleep(3000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
     }
 }
