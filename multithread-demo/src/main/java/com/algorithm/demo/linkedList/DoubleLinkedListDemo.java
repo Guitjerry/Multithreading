@@ -8,13 +8,19 @@ public class DoubleLinkedListDemo {
         HearNode2 hearNode3 = new HearNode2(3, "吴用", "智多星");
         HearNode2 hearNode4 = new HearNode2(4, "林冲", "豹子头");
         DoubleLinkedList doubleLinkedList = new DoubleLinkedList();
-        doubleLinkedList.add(hearNode1);
-        doubleLinkedList.add(hearNode2);
-        doubleLinkedList.add(hearNode3);
-        doubleLinkedList.add(hearNode4);
-        doubleLinkedList.list();
-        HearNode2 newHearNode = new HearNode2(4,"公孙胜","入云龙");
-        doubleLinkedList.update(newHearNode);
+//        doubleLinkedList.add(hearNode1);
+//        doubleLinkedList.add(hearNode2);
+//        doubleLinkedList.add(hearNode3);
+//        doubleLinkedList.add(hearNode4);
+//        doubleLinkedList.list();
+//        HearNode2 newHearNode = new HearNode2(4,"公孙胜","入云龙");
+//        doubleLinkedList.update(newHearNode);
+//        doubleLinkedList.list();
+
+        doubleLinkedList.addByOrder(hearNode1);
+        doubleLinkedList.addByOrder(hearNode2);
+        doubleLinkedList.addByOrder(hearNode3);
+        doubleLinkedList.addByOrder(hearNode4);
         doubleLinkedList.list();
     }
 
@@ -23,6 +29,38 @@ public class DoubleLinkedListDemo {
 class DoubleLinkedList{
     //先初始化一个头节点，头节点不要动
     private HearNode2 head2 = new HearNode2(0, "", "");
+    //第二种添加英雄的方式，需要按顺序
+    public void addByOrder(HearNode2 hearNode) {
+        //双向链表添加
+        HearNode2 tmp = head2;
+        boolean flag = false;
+        while (true) {
+            if (tmp.next == null) {
+                break;
+            }
+            if (tmp.No > hearNode.No) {
+                break;
+            }else if (tmp.No == hearNode.No){
+
+                flag = true;
+                break;
+            }
+            tmp = tmp.next;
+        }
+        if(flag){
+            System.out.println("不能添加重复的节点");
+            return;
+        }
+        if(tmp.next == null){
+            tmp.next = hearNode;
+            hearNode.prev = tmp;
+        }else{
+            tmp.prev = hearNode;
+            hearNode.next = tmp;
+        }
+
+
+    }
     //添加一个节点到双向链表的最后
     public void add(HearNode2 hearNode) {
         HearNode2 temp = head2;
