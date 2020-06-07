@@ -15,12 +15,31 @@ public class SingleLinkedList {
         singleList.addByOrder(hearNode3);
         singleList.addByOrder(hearNode4);
         singleList.addByOrder(hearNode2);
-        HearNode newHearNode2 = new HearNode(2,"小卢","玉麒麟");
-        HearNode delHearNode2 = new HearNode(1,"宋江","及时雨");
-        singleList.update(newHearNode2);
-        singleList.delete(delHearNode2);
+
+//        HearNode newHearNode2 = new HearNode(2,"小卢","玉麒麟");
+//        HearNode delHearNode2 = new HearNode(1,"宋江","及时雨");
+//        singleList.update(newHearNode2);
+//        singleList.delete(delHearNode2);
         //显示
+       reverseList(singleList.getHead());
         singleList.list();
+    }
+
+    public static void reverseList(HearNode head){
+        if(head.next == null||head.next.next == null){
+            return;
+        }
+        HearNode cur = head.next;//辅助指针变量
+        HearNode next = null;//指向当前节点的下一个节点
+        HearNode reverNode = new HearNode(0,"","");
+        while (cur!=null){
+            next = cur.next;
+            cur.next = reverNode.next;
+            reverNode.next = cur;
+            cur = next;
+
+        }
+        head.next = reverNode.next;
     }
 
 
@@ -30,6 +49,14 @@ public class SingleLinkedList {
 class SingleList {
     //先初始化一个头节点，头节点不要动
     private HearNode head = new HearNode(0, "", "");
+
+    public HearNode getHead() {
+        return head;
+    }
+
+    public void setHead(HearNode head) {
+        this.head = head;
+    }
 
     public void add(HearNode hearNode) {
         HearNode temp = head;
