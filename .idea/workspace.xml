@@ -2,9 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="33b76f3f-d058-4780-a11f-e9b361badb18" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/multithread-demo/src/main/java/com/algorithm/demo/Demo2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/multithread-demo/src/main/java/com/algorithm/demo/计数型动态规划step1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__cn_hutool_hutool_all_5_3_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_virtuald_curvesapi_1_06.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_zaxxer_SparseBitSet_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_collections4_4_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_compress_1_19.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_math3_3_6_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_4_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_ooxml_4_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_ooxml_schemas_4_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_xmlbeans_xmlbeans_3_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/multithread-demo/src/main/java/com/excel/demo/1.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/multithread-demo/src/main/java/com/excel/demo/AnsyAndCombind.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/multithread-demo/src/main/java/com/jvm/HeapSpaceInitial.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/multithread-demo/multithread-demo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/multithread-demo/multithread-demo.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/multithread-demo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/multithread-demo/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/multithread-demo/src/main/java/com/jvm/介绍.md" beforeDir="false" afterPath="$PROJECT_DIR$/multithread-demo/src/main/java/com/jvm/介绍.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,25 +39,6 @@
         <option value="Class" />
       </list>
     </option>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>int</find>
-      <find>int Running</find>
-      <find>Worker</find>
-      <find>Obje</find>
-      <find>execute(</find>
-      <find>runW</find>
-      <find>add</find>
-      <find>Node</find>
-      <find>oldCap</find>
-      <find>(n-1)&amp;has</find>
-      <find>newThr = (int)(DEFAULT_LOAD_FACTOR * DEFAULT_INITIAL_CAPACITY)</find>
-      <find>must be a po</find>
-      <find>resize</find>
-      <find>ThreadLocalMap</find>
-      <find>getEb</find>
-    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -72,31 +68,33 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1587912687688" />
     <property name="jdk.selected.PYTHON_MODULE" value="Python 2.7 (Multithreading)" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/multithread-demo/src/main/java/com/algorithm/demo" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/multithread-demo/src/main/java/com/excel/demo" />
+    <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\project\Multithreading\multithread-demo\src\main\java\com\algorithm\demo\sparseArray" />
+      <recent name="D:\project\Multithreading\multithread-demo\src\main\java\com\algorithm\demo" />
+      <recent name="D:\project\Multithreading\multithread-demo" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\project\Multithreading\multithread-demo\src\main\java\com\excel\demo" />
+      <recent name="D:\project\Multithreading\multithread-demo\src\main\java\com\algorithm\demo\queue" />
       <recent name="D:\project\Multithreading\multithread-demo\src\main\java\com\algorithm\demo" />
       <recent name="D:\project\Multithreading\multithread-demo\src\main\java\com\threadinfo\multithread\demo9" />
       <recent name="D:\project\Multithreading\multithread-demo\src\main\java\com\threadinfo\multithread\hashMap" />
-      <recent name="D:\project\Multithreading\multithread-demo\src\main\java\com\threadinfo\multithread\demo5" />
-      <recent name="D:\project\Multithreading\multithread-demo" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\project\Multithreading\multithread-demo" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Demo2">
-    <configuration name="Demo2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.algorithm.demo.Demo2" />
+  <component name="RunManager" selected="Application.HeapSpaceInitial">
+    <configuration name="AnsyAndCombind" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.excel.demo.AnsyAndCombind" />
       <module name="multithread-demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.algorithm.demo.*" />
+          <option name="PATTERN" value="com.excel.demo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -104,12 +102,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreadLocalDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.threadinfo.multithread.demo9.ThreadLocalDemo" />
+    <configuration name="ArrayStackDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.stack.demo.ArrayStackDemo" />
       <module name="multithread-demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.threadinfo.multithread.demo9.*" />
+          <option name="PATTERN" value="com.stack.demo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -117,12 +115,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="demo1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.algorithm.demo.demo1" />
+    <configuration name="ClassLoaderTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.jvm.ClassLoaderTest" />
       <module name="multithread-demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.algorithm.demo.*" />
+          <option name="PATTERN" value="com.jvm.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -130,49 +128,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DichotomySearch" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="pythonDemos" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pythonDemos/demo1" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pythonDemos/demo1/DichotomySearch.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
+    <configuration name="HeapSpaceInitial" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.jvm.HeapSpaceInitial" />
+      <module name="multithread-demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jvm.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
-    <configuration name="demo1" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="pythonDemo" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pythonDemo/demo1" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="D:\project\Multithreading\multithread-demo\demo1.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
+    <configuration name="JvmTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.jvm.JvmTest" />
+      <module name="multithread-demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jvm.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="pythonDemo" type="Python.AppEngineServer" factoryName="App Engine server">
       <module name="pythonDemo" />
@@ -199,20 +179,20 @@
     </configuration>
     <list>
       <item itemvalue="App Engine server.pythonDemo" />
-      <item itemvalue="Application.ThreadLocalDemo" />
-      <item itemvalue="Application.demo1" />
-      <item itemvalue="Python.DichotomySearch" />
-      <item itemvalue="Python.demo1" />
+      <item itemvalue="Application.ArrayStackDemo" />
+      <item itemvalue="Application.ClassLoaderTest" />
+      <item itemvalue="Application.AnsyAndCombind" />
+      <item itemvalue="Application.JvmTest" />
+      <item itemvalue="Application.HeapSpaceInitial" />
       <item itemvalue="Spring Boot.MultithreadDemoApplication" />
-      <item itemvalue="Application.Demo2" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Demo2" />
-        <item itemvalue="Application.demo1" />
-        <item itemvalue="Python.demo1" />
-        <item itemvalue="Python.DichotomySearch" />
-        <item itemvalue="Application.ThreadLocalDemo" />
+        <item itemvalue="Application.HeapSpaceInitial" />
+        <item itemvalue="Application.JvmTest" />
+        <item itemvalue="Application.AnsyAndCombind" />
+        <item itemvalue="Application.ClassLoaderTest" />
+        <item itemvalue="Application.ArrayStackDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -269,7 +249,31 @@
       <workItem from="1589112824891" duration="2106000" />
       <workItem from="1589154772244" duration="788000" />
       <workItem from="1589170440924" duration="5564000" />
-      <workItem from="1589673893860" duration="5241000" />
+      <workItem from="1589673893860" duration="5284000" />
+      <workItem from="1589804248647" duration="1939000" />
+      <workItem from="1591004679972" duration="3732000" />
+      <workItem from="1591100186034" duration="7097000" />
+      <workItem from="1591188939207" duration="3210000" />
+      <workItem from="1591404820564" duration="6971000" />
+      <workItem from="1591452115537" duration="5668000" />
+      <workItem from="1591490833181" duration="133000" />
+      <workItem from="1591491183506" duration="43000" />
+      <workItem from="1591491281090" duration="34000" />
+      <workItem from="1591491359645" duration="9000" />
+      <workItem from="1591491379507" duration="5215000" />
+      <workItem from="1591511872892" duration="8444000" />
+      <workItem from="1591614221353" duration="6657000" />
+      <workItem from="1591697227128" duration="1907000" />
+      <workItem from="1591716496070" duration="1291000" />
+      <workItem from="1591796838105" duration="2342000" />
+      <workItem from="1591878124707" duration="1527000" />
+      <workItem from="1592008847301" duration="629000" />
+      <workItem from="1592216109255" duration="615000" />
+      <workItem from="1592217336093" duration="344000" />
+      <workItem from="1592217695267" duration="1986000" />
+      <workItem from="1592399536078" duration="707000" />
+      <workItem from="1592654234271" duration="5044000" />
+      <workItem from="1592800196745" duration="951000" />
     </task>
     <task id="LOCAL-00001" summary="初始化">
       <created>1586354468787</created>
@@ -362,7 +366,112 @@
       <option name="project" value="LOCAL" />
       <updated>1589211556648</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="计数型动态规划">
+      <created>1589728953375</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1589728953376</updated>
+    </task>
+    <task id="LOCAL-00015" summary="稀疏数组">
+      <created>1591028501085</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1591028501085</updated>
+    </task>
+    <task id="LOCAL-00016" summary="稀疏数组">
+      <created>1591111802791</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1591111802791</updated>
+    </task>
+    <task id="LOCAL-00017" summary="模拟队列">
+      <created>1591114352243</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1591114352243</updated>
+    </task>
+    <task id="LOCAL-00018" summary="模拟队列">
+      <created>1591406509937</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1591406509937</updated>
+    </task>
+    <task id="LOCAL-00019" summary="环形队列">
+      <created>1591433921972</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1591433921972</updated>
+    </task>
+    <task id="LOCAL-00020" summary="单链表">
+      <created>1591457174069</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1591457174069</updated>
+    </task>
+    <task id="LOCAL-00021" summary="单链表">
+      <created>1591512040295</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1591512040295</updated>
+    </task>
+    <task id="LOCAL-00022" summary="双向链表">
+      <created>1591520503727</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1591520503727</updated>
+    </task>
+    <task id="LOCAL-00023" summary="双向链表">
+      <created>1591522072275</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1591522072275</updated>
+    </task>
+    <task id="LOCAL-00024" summary="约瑟夫问题解析">
+      <created>1591543976758</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1591543976758</updated>
+    </task>
+    <task id="LOCAL-00025" summary="栈">
+      <created>1591624885427</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1591624885427</updated>
+    </task>
+    <task id="LOCAL-00026" summary="jvm">
+      <created>1591626398875</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1591626398875</updated>
+    </task>
+    <task id="LOCAL-00027" summary="jvm加载">
+      <created>1591717703033</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1591717703033</updated>
+    </task>
+    <task id="LOCAL-00028" summary="类加载器">
+      <created>1591802575215</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1591802575215</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -424,7 +533,18 @@
     <MESSAGE value="threadlocal" />
     <MESSAGE value="算法" />
     <MESSAGE value="动态规划" />
-    <option name="LAST_COMMIT_MESSAGE" value="动态规划" />
+    <MESSAGE value="计数型动态规划" />
+    <MESSAGE value="稀疏数组" />
+    <MESSAGE value="模拟队列" />
+    <MESSAGE value="环形队列" />
+    <MESSAGE value="单链表" />
+    <MESSAGE value="双向链表" />
+    <MESSAGE value="约瑟夫问题解析" />
+    <MESSAGE value="栈" />
+    <MESSAGE value="jvm" />
+    <MESSAGE value="jvm加载" />
+    <MESSAGE value="类加载器" />
+    <option name="LAST_COMMIT_MESSAGE" value="类加载器" />
   </component>
   <component name="WindowStateProjectService">
     <state x="452" y="91" key="#Inspections" timestamp="1589117929084">
@@ -435,14 +555,26 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="352" y="2" key="#Notifications/0.0.1920.1040@0.0.1920.1040" timestamp="1586434249063" />
-    <state x="552" y="181" key="#Project_Structure" timestamp="1589112998532">
+    <state x="552" y="181" key="#Project_Structure" timestamp="1591026019163">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="181" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1589112998532" />
-    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1586428387887">
+    <state x="552" y="181" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1591026019163" />
+    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1592218736137">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1586428387887" />
+    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1592218736137" />
+    <state x="610" y="302" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1591412788150">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="610" y="302" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1591412788150" />
+    <state x="690" y="163" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1592218672838">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="690" y="163" key="#com.intellij.ide.macro.MacrosDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1592218672838" />
+    <state x="721" y="164" key="#com.intellij.ide.util.MemberChooser" timestamp="1591620664736">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="721" y="164" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1591620664736" />
     <state x="613" y="133" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1589728929518">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -451,73 +583,77 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="806" y="409" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1589112884036" />
-    <state x="572" y="84" key="CommitChangelistDialog2" timestamp="1589211555885">
+    <state x="572" y="84" key="CommitChangelistDialog2" timestamp="1591802574422">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="572" y="84" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1589211555885" />
-    <state x="740" y="277" key="FileChooserDialogImpl" timestamp="1589112962539">
+    <state x="572" y="84" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1591802574422" />
+    <state x="740" y="277" key="FileChooserDialogImpl" timestamp="1591716562172">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="277" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1589112962539" />
-    <state width="933" height="190" key="GridCell.Tab.0.bottom" timestamp="1589682345139">
+    <state x="740" y="277" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1591716562172" />
+    <state width="1850" height="282" key="GridCell.Tab.0.bottom" timestamp="1592800215471">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="933" height="190" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1589682345139" />
-    <state width="933" height="190" key="GridCell.Tab.0.center" timestamp="1589682345139">
+    <state width="1850" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1592800215471" />
+    <state width="1850" height="282" key="GridCell.Tab.0.center" timestamp="1592800215471">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="933" height="190" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1589682345139" />
-    <state width="933" height="190" key="GridCell.Tab.0.left" timestamp="1589682345139">
+    <state width="1850" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1592800215471" />
+    <state width="1850" height="282" key="GridCell.Tab.0.left" timestamp="1592800215470">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="933" height="190" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1589682345139" />
-    <state width="933" height="190" key="GridCell.Tab.0.right" timestamp="1589682345139">
+    <state width="1850" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1592800215470" />
+    <state width="1850" height="282" key="GridCell.Tab.0.right" timestamp="1592800215471">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="933" height="190" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1589682345139" />
-    <state width="1867" height="334" key="GridCell.Tab.1.bottom" timestamp="1589211581274">
+    <state width="1850" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1592800215471" />
+    <state width="1850" height="414" key="GridCell.Tab.1.bottom" timestamp="1592219022042">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1867" height="334" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1589211581274" />
-    <state width="1867" height="334" key="GridCell.Tab.1.center" timestamp="1589211581274">
+    <state width="1850" height="414" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1592219022042" />
+    <state width="1850" height="414" key="GridCell.Tab.1.center" timestamp="1592219022042">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1867" height="334" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1589211581274" />
-    <state width="1867" height="334" key="GridCell.Tab.1.left" timestamp="1589211581274">
+    <state width="1850" height="414" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1592219022042" />
+    <state width="1850" height="414" key="GridCell.Tab.1.left" timestamp="1592219022042">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1867" height="334" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1589211581274" />
-    <state width="1867" height="334" key="GridCell.Tab.1.right" timestamp="1589211581274">
+    <state width="1850" height="414" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1592219022042" />
+    <state width="1850" height="414" key="GridCell.Tab.1.right" timestamp="1592219022042">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1867" height="334" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1589211581274" />
+    <state width="1850" height="414" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1592219022042" />
     <state x="600" y="223" key="NewModule_or_Project.wizard" timestamp="1586428718938">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="600" y="223" key="NewModule_or_Project.wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1586428718938" />
-    <state x="451" y="0" key="SettingsEditor" timestamp="1589113023490">
+    <state x="451" y="0" key="SettingsEditor" timestamp="1591716678572">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="451" y="0" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1589113023490" />
-    <state x="552" y="256" key="Vcs.Push.Dialog.v2" timestamp="1589211558710">
+    <state x="451" y="0" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1591716678572" />
+    <state x="552" y="256" key="Vcs.Push.Dialog.v2" timestamp="1591802576631">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="256" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1589211558710" />
-    <state x="652" y="347" key="com.intellij.ide.util.TipDialog" timestamp="1589674004212">
+    <state x="552" y="256" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1591802576631" />
+    <state width="497" height="1038" key="com.intellij.byteCodeViewer.ShowByteCodeAction" timestamp="1591716978864">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="652" y="347" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1589674004212" />
-    <state x="662" y="311" key="git4idea.merge.GitPullDialog" timestamp="1589118167155">
+    <state width="497" height="1038" key="com.intellij.byteCodeViewer.ShowByteCodeAction/0.0.1920.1040@0.0.1920.1040" timestamp="1591716978864" />
+    <state x="652" y="347" key="com.intellij.ide.util.TipDialog" timestamp="1592800198021">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="662" y="311" key="git4idea.merge.GitPullDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1589118167155" />
+    <state x="652" y="347" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1592800198021" />
+    <state x="662" y="311" key="git4idea.merge.GitPullDialog" timestamp="1591004685130">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="662" y="311" key="git4idea.merge.GitPullDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1591004685130" />
     <state x="335" y="136" key="new project wizard" timestamp="1586430556159">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="335" y="136" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1586430556159" />
-    <state x="539" y="5" width="840" height="1034" key="search.everywhere.popup" timestamp="1589680728465">
+    <state x="539" y="5" width="840" height="1034" key="search.everywhere.popup" timestamp="1591522102512">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="539" y="5" width="840" height="1034" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1589680728465" />
+    <state x="539" y="5" width="840" height="1034" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1591522102512" />
   </component>
 </project>
