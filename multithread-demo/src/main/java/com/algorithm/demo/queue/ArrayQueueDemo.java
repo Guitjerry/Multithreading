@@ -6,31 +6,31 @@ public class ArrayQueueDemo {
     public static void main(String[] args) {
         ArrayQueue arrayQueue = new ArrayQueue(3);
         char key = ' ';
-        Scanner scanner =  new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in);
         boolean loop = true;
-        while (loop){
+        while (loop) {
             System.out.println("s(show) 显示队列");
             System.out.println("e(exit) 推出队列");
             System.out.println("a(add) 添加数据到队列");
             System.out.println("g(get) 从队列取出数据");
             System.out.println("h(head) 查看对头数据");
             key = scanner.next().charAt(0);
-            switch (key){
+            switch (key) {
                 case 's':
                     arrayQueue.showQueue();
                     break;
                 case 'a':
                     System.out.println("输出一个数");
-                    int value =  scanner.nextInt();
+                    int value = scanner.nextInt();
                     arrayQueue.addQueue(value);
                     break;
                 case 'g':
-                   int queue =  arrayQueue.getQueue();
-                    System.out.println("获得:"+queue);
+                    int queue = arrayQueue.getQueue();
+                    System.out.println("获得:" + queue);
                     break;
                 case 'h':
-                   int head =  arrayQueue.headQueue();
-                    System.out.println("获得:"+head);
+                    int head = arrayQueue.headQueue();
+                    System.out.println("获得:" + head);
                     break;
             }
 
@@ -38,36 +38,38 @@ public class ArrayQueueDemo {
     }
 
 }
+
 /**
  * ，模拟队列
  */
-class ArrayQueue{
+class ArrayQueue {
     private int rear;//指向队列尾部
     private int front;//指向队列头部
-    private int[] array;
-    private int maxSize;
+    private int[] array;//队列里的数组
+    private int maxSize;//队列最大值
 
     public ArrayQueue(int maxSize) {
         this.maxSize = maxSize;
         array = new int[maxSize];
-        rear = -1;
-        front = -1;
+        rear = -1;//分析出front是指向队列头的前一个位置
+        front = -1;//指向队列的尾部(就是队列最后一个数据)
     }
 
     /**
      * 判断队列是否已满
+     *
      * @return
      */
-    public boolean isFull(){
-        return rear == array.length-1;
+    public boolean isFull() {
+        return rear == array.length - 1;
     }
 
-    public boolean isEmpty(){
+    public boolean isEmpty() {
         return rear == front;
     }
 
-    public void addQueue(int n){
-        if(isFull()){
+    public void addQueue(int n) {
+        if (isFull()) {
             System.out.println("队列已满，不能继续添加");
             return;
         }
@@ -75,25 +77,27 @@ class ArrayQueue{
         array[rear] = n;
     }
 
-    public int getQueue(){
-        if(isEmpty()){
-            throw  new RuntimeException("队列为空");
+    public int getQueue() {
+        if (isEmpty()) {
+            throw new RuntimeException("队列为空");
         }
         front++;
         return array[front];
     }
-    public void showQueue(){
-        if(isEmpty()){
+
+    public void showQueue() {
+        if (isEmpty()) {
             return;
         }
-        for(int i:array){
+        for (int i : array) {
             System.out.println(i);
         }
     }
-    public int headQueue(){
-        if(isEmpty()){
-            throw  new RuntimeException("队列为空");
+    //显示队列的头部数据
+    public int headQueue() {
+        if (isEmpty()) {
+            throw new RuntimeException("队列为空");
         }
-        return array[front+1];
+        return array[front + 1];
     }
 }

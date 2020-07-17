@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="33b76f3f-d058-4780-a11f-e9b361badb18" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/multithread-demo/src/main/java/com/jvm/StaticFieldTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/multithread-demo/src/main/java/com/jvm/image/方法区的演讲5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/multithread-demo/src/main/java/com/jvm/stringDemo/StringTest1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/multithread-demo/src/main/java/com/jvm/介绍.md" beforeDir="false" afterPath="$PROJECT_DIR$/multithread-demo/src/main/java/com/jvm/介绍.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/multithread-demo/src/main/java/com/algorithm/demo/queue/ArrayQueueDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/multithread-demo/src/main/java/com/algorithm/demo/queue/ArrayQueueDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/multithread-demo/src/main/java/com/algorithm/demo/queue/CircleArrayQueueDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/multithread-demo/src/main/java/com/algorithm/demo/queue/CircleArrayQueueDemo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +73,7 @@
       <recent name="D:\project\Multithreading\multithread-demo\src\main\java\com\threadinfo\multithread\hashMap" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.StaticFieldTest">
+  <component name="RunManager" selected="Application.Demo1">
     <configuration name="AnsyAndCombind" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.excel.demo.AnsyAndCombind" />
       <module name="multithread-demo" />
@@ -89,12 +87,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ClassLoaderTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.jvm.ClassLoaderTest" />
+    <configuration name="Demo1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.algorithm.demo.sparseArray.Demo1" />
       <module name="multithread-demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.jvm.*" />
+          <option name="PATTERN" value="com.algorithm.demo.sparseArray.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -167,20 +165,20 @@
     </configuration>
     <list>
       <item itemvalue="App Engine server.pythonDemo" />
-      <item itemvalue="Application.ClassLoaderTest" />
       <item itemvalue="Application.AnsyAndCombind" />
       <item itemvalue="Application.JvmTest" />
       <item itemvalue="Application.HeapSpaceInitial" />
       <item itemvalue="Application.StaticFieldTest" />
+      <item itemvalue="Application.Demo1" />
       <item itemvalue="Spring Boot.MultithreadDemoApplication" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Demo1" />
         <item itemvalue="Application.StaticFieldTest" />
         <item itemvalue="Application.HeapSpaceInitial" />
         <item itemvalue="Application.JvmTest" />
         <item itemvalue="Application.AnsyAndCombind" />
-        <item itemvalue="Application.ClassLoaderTest" />
       </list>
     </recent_temporary>
   </component>
@@ -269,7 +267,8 @@
       <workItem from="1594218980234" duration="662000" />
       <workItem from="1594643662731" duration="959000" />
       <workItem from="1594683050621" duration="3671000" />
-      <workItem from="1594896781739" duration="2838000" />
+      <workItem from="1594896781739" duration="5355000" />
+      <workItem from="1594942545414" duration="1526000" />
     </task>
     <task id="LOCAL-00001" summary="初始化">
       <created>1586354468787</created>
@@ -474,7 +473,14 @@
       <option name="project" value="LOCAL" />
       <updated>1592841887860</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="代码提交">
+      <created>1594904424140</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1594904424140</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -548,7 +554,8 @@
     <MESSAGE value="jvm加载" />
     <MESSAGE value="类加载器" />
     <MESSAGE value="更新" />
-    <option name="LAST_COMMIT_MESSAGE" value="更新" />
+    <MESSAGE value="代码提交" />
+    <option name="LAST_COMMIT_MESSAGE" value="代码提交" />
   </component>
   <component name="WindowStateProjectService">
     <state x="452" y="91" key="#Inspections" timestamp="1589117929084">
@@ -587,30 +594,30 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="806" y="409" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1589112884036" />
-    <state x="572" y="84" key="CommitChangelistDialog2" timestamp="1592841885447">
+    <state x="572" y="84" key="CommitChangelistDialog2" timestamp="1594904423257">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="572" y="84" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1592841885447" />
+    <state x="572" y="84" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1594904423257" />
     <state x="740" y="277" key="FileChooserDialogImpl" timestamp="1591716562172">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="277" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1591716562172" />
-    <state width="1867" height="417" key="GridCell.Tab.0.bottom" timestamp="1594818813065">
+    <state width="1867" height="89" key="GridCell.Tab.0.bottom" timestamp="1594912268461">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1867" height="417" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1594818813065" />
-    <state width="1867" height="417" key="GridCell.Tab.0.center" timestamp="1594818813064">
+    <state width="1867" height="89" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1594912268461" />
+    <state width="1867" height="89" key="GridCell.Tab.0.center" timestamp="1594912268461">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1867" height="417" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1594818813064" />
-    <state width="1867" height="417" key="GridCell.Tab.0.left" timestamp="1594818813064">
+    <state width="1867" height="89" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1594912268461" />
+    <state width="1867" height="89" key="GridCell.Tab.0.left" timestamp="1594912268461">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1867" height="417" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1594818813064" />
-    <state width="1867" height="417" key="GridCell.Tab.0.right" timestamp="1594818813064">
+    <state width="1867" height="89" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1594912268461" />
+    <state width="1867" height="89" key="GridCell.Tab.0.right" timestamp="1594912268461">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1867" height="417" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1594818813064" />
+    <state width="1867" height="89" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1594912268461" />
     <state width="1867" height="417" key="GridCell.Tab.1.bottom" timestamp="1594818813065">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -635,22 +642,26 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="451" y="0" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1591716678572" />
-    <state x="552" y="256" key="Vcs.Push.Dialog.v2" timestamp="1592841927054">
+    <state x="552" y="256" key="Vcs.Push.Dialog.v2" timestamp="1594904425746">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="256" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1592841927054" />
+    <state x="552" y="256" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1594904425746" />
     <state width="497" height="1038" key="com.intellij.byteCodeViewer.ShowByteCodeAction" timestamp="1591716978864">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="497" height="1038" key="com.intellij.byteCodeViewer.ShowByteCodeAction/0.0.1920.1040@0.0.1920.1040" timestamp="1591716978864" />
-    <state x="650" y="84" key="com.intellij.ide.util.TipDialog" timestamp="1594898008714">
+    <state x="650" y="84" key="com.intellij.ide.util.TipDialog" timestamp="1594959894999">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="650" y="84" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1594898008714" />
+    <state x="650" y="84" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1594959894999" />
     <state x="530" y="71" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1594786885050">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="530" y="71" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1594786885050" />
+    <state x="493" y="0" width="933" height="1040" key="find.popup" timestamp="1594907582127">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="493" y="0" width="933" height="1040" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1594907582127" />
     <state x="662" y="311" key="git4idea.merge.GitPullDialog" timestamp="1591004685130">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
