@@ -1,41 +1,73 @@
 package com.stack.demo;
 
-import java.util.Scanner;
-
 public class ArrayStackDemo {
     public static void main(String[] args) {
-        ArrayStack arrayStack = new ArrayStack(4);
-        String key = "";
-        boolean loop = true;//控制是否退出菜单
-        Scanner scanner = new Scanner(System.in);
+        String expression = "23+12*6-2+10*7";
+        //定义两个栈
+        ArrayStack numStack = new ArrayStack(10);
+        ArrayStack operStack = new ArrayStack(10);
+        int index = 0;
+        int num1 = 0;
+        int num2 = 0;
+        int oper = 0;
+        int res = 0;
+        char ch = ' ';
+        String keepNum = "";//用于拼接
         while (true) {
-            System.out.println("show:表示显示栈");
-            System.out.println("exit:退出程序");
-            System.out.println("push:表示添加数据到栈(入栈)");
-            System.out.println("pop:表示从栈取出数据");
-            System.out.println("请输入你的选择");
-            key = scanner.next();
-            switch (key) {
-                case "show":
-                    arrayStack.list();
-                    break;
-                case "push":
-                    System.out.println("请输入一个值");
-                    int value = scanner.nextInt();
-                    arrayStack.push(value);
-                    break;
-                case "pop":
-                    int val = arrayStack.pop();
-                    System.out.println("出栈的值为:" + val);
-                    break;
-                case "exit":
-                    scanner.close();
-                    break;
-                default:
-                    break;
+            //获取expression的每一个字符
+            ch = expression.substring(index, index + 1).charAt(0);
+            //判断ch是什么
+            if (operStack.isOper(ch)) {
+                //如果是运算符
+                //判断当前符号栈是否为空
+                if (!operStack.isEmpty()) {
+                    if (operStack.priority(ch) <= operStack.priority(operStack.peek())) {
+                        num1 = numStack.pop();
+                        num2 = numStack.pop();
+                        oper = operStack.pop();
+                        res = numStack.cal(num1, num2, oper);
+                        //运算结果入数栈
+                        numStack.push(res);
+                        //当前操作符入符号栈
+                        operStack.push(ch);
+                    } else {
+                        operStack.push(ch);
+                    }
+                } else {
+                    operStack.push(ch);
+                }
+            } else {
+                keepNum += ch;
+                //如果ch已经是expression的最后一位，则
+                if (index == expression.length() - 1) {
+                    numStack.push(Integer.parseInt(keepNum));
+                } else {
+                    //如果下一个是数字,就继续扫描，如果是字符则入栈
+                    if (operStack.isOper(expression.substring(index + 1, index + 2).charAt(0))) {
+                        numStack.push(Integer.parseInt(keepNum));
+                        keepNum = "";
+                    }
+                }
+
             }
-            System.out.println("程序退出");
+            //让index+1
+            index++;
+            if (index >= expression.length()) {
+                break;
+            }
         }
+        while (true) {
+            if (operStack.isEmpty()) {
+                break;
+            }
+            num1 = numStack.pop();
+            num2 = numStack.pop();
+            oper = operStack.pop();
+            res = numStack.cal(num1, num2, oper);
+            System.out.println("计算结果:"+ res);
+            numStack.push(res);
+        }
+        int res2 = numStack.pop();
 
 
     }
@@ -45,6 +77,7 @@ public class ArrayStackDemo {
      */
 
 }
+
 class ArrayStack {
     private int maxSize;//栈的大小
     private int[] stack;//数组模拟栈，数据就放在该数组
@@ -90,4 +123,50 @@ class ArrayStack {
             System.out.println(stack[i]);
         }
     }
+
+    //判断优先级
+    public int priority(int oper) {
+        if (oper == '*' || oper == '/') {
+            return 1;
+        } else if (oper == '+' || oper == '-') {
+            return 0;
+        } else {
+            return -1;
+        }
+    }
+
+    //判断是否是操作符
+    public boolean isOper(char val) {
+        return val == '+' || val == '-' || val == '*' || val == '/';
+    }
+
+    //计算
+    public int cal(int num1, int num2, int oper) {
+        int res = 0;
+        switch (oper) {
+            case '+':
+                res = num1 + num2;
+                break;
+            case '-':
+                res = num2 - num1;
+                break;
+            case '*':
+                res = num1 * num2;
+                break;
+            case '/':
+                res = num2 / num1;
+                break;
+            default:
+                break;
+
+        }
+        return res;
+    }
+
+    //返回当前栈顶
+    public int peek() {
+        return stack[top];
+    }
+
+
 }
